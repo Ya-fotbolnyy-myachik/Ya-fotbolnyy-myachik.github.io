@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 24pt;
+	color: #008080;
+	background-color: #F7F3E9;
+}
+p{
+    color: SteelBlue;
+	font-size: 30pt;
+	font-family: 'Lobster', cursive;
+	margin: 30px 0;
+}
+@font-face {
+	font-family: 'BroadwayC';
+	src:url('../fonts/BroadwayC.woff');
+	font-weight: normal;
+	font-style: normal; 
+}
+span{
+	font-family: 'BroadwayC';
+}
+h3{
+	color: #8B0000;
+	font-size: 40pt;
+	font-family: Comfortaa, cursive;
+}
+div{
+	width: 90%;
+	margin: auto;
+	padding: 50px;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0,2);
+}
+a{
+	text-decoration: none;
+	font-family: 'BroadwayC';
+	margin: 20px 0;
+	color: Maroon;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+	transition: 1s ease-in;
+}
+a:hover{
+	border-bottom-color: #204051;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}

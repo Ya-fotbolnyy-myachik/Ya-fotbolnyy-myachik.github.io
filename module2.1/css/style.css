@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin: 0,
+}
+body{
+	background-color: #eee;
+}
+.main{
+	background-color: #fff;
+	display: flex;
+	width: 95%;
+	max-width: 1000px;
+	margin: auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.item{
+	max-height: 265px;
+	max-width: 490px;
+	height: calc(95vw / 2 / 16 * 9);
+	width: calc(90vw - 10px);
+	background-color: dodgerblue;
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	font-size: 48px;
+
+	text-align: center;
+	width: 100%;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+.img_link{
+	display: block;
+	opacity: 0.9;
+	margin: 5px;
+	z-index: 1;
+	transition: 0.5s ease-in, transform 0.7s ease-in, box-shadow 0.4s ease-in, z-index 0.7s ease-in;
+}
+.img_link:hover{
+	opacity: 1;
+	transition: 0.5s ease-out;
+	transform: scale(1.2);
+	z-index: 10;
+	box-shadow: 0 0 200px 30px rgba(0, 0, 0, 0.6)
+}
+.link-wrapper{
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.author{
+	color:#111;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: 0.3s;
+}
